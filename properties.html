@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Properties | Your Real Estate Company</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container">
+            <nav class="navbar">
+
+                <a href="index.html" class="logo">
+                    YourLogo
+                </a>
+
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="properties.html" class="active">Properties</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+
+                <a href="contact.html" class="btn btn-primary">
+                    Contact Us
+                </a>
+
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- Page Hero -->
+    <main>
+
+        <section class="page-hero">
+            <div class="container">
+                <h1>Our Properties</h1>
+                <p>
+                    Explore our collection of carefully selected properties
+                    and find a place that feels like home.
+                </p>
+            </div>
+        </section>
+
+
+        <!-- Property Search -->
+        <section class="property-search">
+            <div class="container">
+
+                <form class="search-form">
+
+                    <div class="form-group">
+                        <label for="location">Location</label>
+                        <input
+                            type="text"
+                            id="location"
+                            name="location"
+                            placeholder="Enter location"
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="property-type">Property Type</label>
+                        <select id="property-type" name="property-type">
+                            <option value="">All Types</option>
+                            <option value="house">House</option>
+                            <option value="apartment">Apartment</option>
+                            <option value="villa">Villa</option>
+                            <option value="land">Land</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="price">Price Range</label>
+                        <select id="price" name="price">
+                            <option value="">Any Price</option>
+                            <option value="low">Under $200,000</option>
+                            <option value="medium">$200,000 - $500,000</option>
+                            <option value="high">$500,000 - $1,000,000</option>
+                            <option value="luxury">$1,000,000+</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">
+                        Search
+                    </button>
+
+                </form>
+
+            </div>
+        </section>
+
+
+        <!-- Properties -->
+        <section class="properties-section">
+            <div class="container">
+
+                <div class="section-heading">
+                    <h2>Available Properties</h2>
+                    <p>Find a property that matches your lifestyle and needs.</p>
+                </div>
+
+
+                <div class="property-grid">
+
+                    <!-- Property 1 -->
+<article class="property-card">
+
+      <div class="property-image">
+    <img src="images/property-1.jpg" alt="Modern Family Home">
+</div>
+        
+
+
+    <div class="property-content">
+        <span class="property-type">For Sale</span>
+
+        <h3>Modern Family Home</h3>
+
+        <p class="property-location">
+            📍 Lagos, Nigeria
+        </p>
+
+        <p class="property-price">
+            ₦450,000,000
+        </p>
+
+        <div class="property-details">
+            <span>🛏 4 Beds</span>
+            <span>🛁 3 Baths</span>
+        </div>
+
+        <a href="properties.html" class="btn btn-primary">
+            View Details
+        </a>
+    </div>
+
+</article>
+                   <!-- Property 2 -->
+<article class="property-card">
+    <div class="property-image">
+    <img src="images/property-2.jpg" alt="Luxury 3-Bedroom Apartment">
+</div>
+
+    <div class="property-content">
+        <span class="property-type">For Sale</span>
+
+        <h3>Luxury 3-Bedroom Apartment</h3>
+
+        <p class="property-location">
+            📍 Abuja, Nigeria
+        </p>
+
+        <p class="property-price">
+            ₦120,000,000
+        </p>
+
+        <div class="property-details">
+            <span>🛏 3 Beds</span>
+            <span>🛁 3 Baths</span>
+        </div>
+
+        <a href="properties.html" class="btn btn-primary">
+            View Details
+        </a>
+    </div>
+
+</article>
+
+
+                    <!-- Property 3 -->
+<article class="property-card">
+
+    <div class="property-image">
+    <img src="images/property-3.jpg" alt="Premium Residential Land">
+</div>
+    <div class="property-content">
+        <span class="property-type">For Sale</span>
+
+        <h3>Premium Residential Land</h3>
+
+        <p class="property-location">
+            📍 Makurdi, Benue State
+        </p>
+
+        <p class="property-price">
+            ₦15,000,000
+        </p>
+
+        <div class="property-details">
+            <span>📐 600 sqm</span>
+            <span>🏡 Residential</span>
+        </div>
+
+        <a href="properties.html" class="btn btn-primary">
+            View Details
+        </a>
+    </div>
+
+</article>
+
+                    <!-- Property 4 -->
+                    <article class="property-card">
+
+                        <div class="property-image">
+                            <div class="image-placeholder">
+                                Property Image
+                            </div>
+                        </div>
+
+                        <div class="property-content">
+                            <span class="property-type">For Sale</span>
+
+                            <h3>Elegant Suburban House</h3>
+
+                            <p class="property-location">
+                                📍 Ibadan, Nigeria
+                            </p>
+
+                            <p class="property-price">
+                                $280,000
+                            </p>
+
+                            <div class="property-details">
+                                <span>🛏 4 Beds</span>
+                                <span>🛁 3 Baths</span>
+                            </div>
+
+                            <a href="#" class="btn btn-primary">
+                                View Details
+                            </a>
+                        </div>
+
+                    </article>
+
+
+                    <!-- Property 5 -->
+                    <article class="property-card">
+
+                        <div class="property-image">
+                            <div class="image-placeholder">
+                                Property Image
+                            </div>
+                        </div>
+
+                        <div class="property-content">
+                            <span class="property-type">For Sale</span>
+
+                            <h3>Premium Waterfront Home</h3>
+
+                            <p class="property-location">
+                                📍 Lekki, Lagos
+                            </p>
+
+                            <p class="property-price">
+                                $850,000
+                            </p>
+
+                            <div class="property-details">
+                                <span>🛏 5 Beds</span>
+                                <span>🛁 5 Baths</span>
+                            </div>
+
+                            <a href="#" class="btn btn-primary">
+                                View Details
+                            </a>
+                        </div>
+
+                    </article>
+
+
+                    <!-- Property 6 -->
+                    <article class="property-card">
+
+                        <div class="property-image">
+                            <div class="image-placeholder">
+                                Property Image
+                            </div>
+                        </div>
+
+                        <div class="property-content">
+                            <span class="property-type">For Sale</span>
+
+                            <h3>Modern Luxury Residence</h3>
+
+                            <p class="property-location">
+                                📍 Maitama, Abuja
+                            </p>
+
+                            <p class="property-price">
+                                $1,200,000
+                            </p>
+
+                            <div class="property-details">
+                                <span>🛏 6 Beds</span>
+                                <span>🛁 5 Baths</span>
+                            </div>
+
+                            <a href="#" class="btn btn-primary">
+                                View Details
+                            </a>
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="site-footer">
+
+        <div class="container">
+
+            <div class="footer-grid">
+
+                <div class="footer-column">
+                    <h3>YourLogo</h3>
+                    <p>
+                        Helping you find exceptional properties
+                        and make confident real-estate decisions.
+                    </p>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="properties.html">Properties</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <p>Email: info@example.com</p>
+                    <p>Phone: +234 800 000 0000</p>
+                    <p>Nigeria</p>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>
+                    &copy; 2026 YourLogo. All rights reserved.
+                </p>
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>

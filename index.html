@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DreamHome Realty | Find Your Perfect Property</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="main-header">
+        <nav class="nav-container">
+            <div class="logo">
+                <a href="index.html">DreamHome<span>Realty</span></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="properties.html">Properties</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="nav-cta">
+                <a href="properties.html" class="btn btn-primary">View Properties</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Find Your Dream Property with Professional Guidance</h1>
+                <p>We help you buy, sell, or rent high-quality properties in the most desirable locations.</p>
+                <div class="hero-btns">
+                    <a href="properties.html" class="btn btn-primary">Explore Properties</a>
+                    <a href="contact.html" class="btn btn-secondary">Contact Us</a>
+                </div>
+            </div>
+            <div class="hero-image-placeholder">
+                <!-- Background image will be set in CSS -->
+            </div>
+        </section>
+
+        <!-- Property Search Section -->
+        <section class="search-section">
+            <div class="container">
+                <form class="search-form">
+                    <div class="form-group">
+                        <label for="location">Location</label>
+                        <input type="text" id="location" placeholder="Enter city or area">
+                    </div>
+                    <div class="form-group">
+                        <label for="property-type">Property Type</label>
+                        <select id="property-type">
+                            <option value="">All Types</option>
+                            <option value="apartment">Apartment</option>
+                            <option value="house">House</option>
+                            <option value="villa">Villa</option>
+                            <option value="office">Office</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="price-range">Price Range</label>
+                        <select id="price-range">
+                            <option value="">Any Price</option>
+                            <option value="0-100k">$0 - $100k</option>
+                            <option value="100k-500k">$100k - $500k</option>
+                            <option value="500k-1m">$500k - $1M</option>
+                            <option value="1m+">$1M+</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-search">Search</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Featured Properties Section -->
+        <section class="featured-properties">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Featured Properties</h2>
+                    <p>Hand-picked listings just for you</p>
+                </div>
+                <div class="property-grid">
+                    <!-- Property Card 1 -->
+                    <article class="property-card">
+                        <div class="property-image">
+                            <img src="images/placeholder-property.jpg" alt="Modern Apartment">
+                        </div>
+                        <div class="property-info">
+                            <h3>Modern City Apartment</h3>
+                            <p class="location">Downtown, Metro City</p>
+                            <p class="price">$450,000</p>
+                            <ul class="property-features">
+                                <li><span>2</span> Beds</li>
+                                <li><span>2</span> Baths</li>
+                            </ul>
+                           <a href="properties-details.html" class="btn btn-outline">View Property</a>
+                        </div>
+                    </article>
+
+                    <!-- Property Card 2 -->
+                    <article class="property-card">
+                        <div class="property-image">
+                            <img src="images/placeholder-property.jpg" alt="Family House">
+                        </div>
+                        <div class="property-info">
+                            <h3>Suburban Family House</h3>
+                            <p class="location">Greenwood Estates</p>
+                            <p class="price">$675,000</p>
+                            <ul class="property-features">
+                                <li><span>4</span> Beds</li>
+                                <li><span>3</span> Baths</li>
+                            </ul>
+                            <a href="properties-details.html" class="btn btn-outline">View Property</a>
+                        </div>
+                    </article>
+
+                    <!-- Property Card 3 -->
+                    <article class="property-card">
+                        <div class="property-image">
+                            <img src="images/placeholder-property.jpg" alt="Luxury Villa">
+                        </div>
+                        <div class="property-info">
+                            <h3>Luxury Seaside Villa</h3>
+                            <p class="location">Ocean View Drive</p>
+                            <p class="price">$1,250,000</p>
+                            <ul class="property-features">
+                                <li><span>5</span> Beds</li>
+                                <li><span>4</span> Baths</li>
+                            </ul>
+                            <a href="properties.html" class="btn btn-outline">View Property</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us Section -->
+        <section class="features">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Why Choose Us</h2>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <div class="feature-icon">🏠</div>
+                        <h3>Wide Selection</h3>
+                        <p>Access to thousands of properties across the country.</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">🛡️</div>
+                        <h3>Trusted Agency</h3>
+                        <p>Over 15 years of experience in the real estate market.</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">💰</div>
+                        <h3>Best Pricing</h3>
+                        <p>We ensure you get the best market value for your investment.</p>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">🤝</div>
+                        <h3>Expert Support</h3>
+                        <p>Professional agents ready to guide you at every step.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About/Introduction Section -->
+        <section class="about-intro">
+            <div class="container">
+                <div class="about-content">
+                    <h2>Your Trusted Partner in Real Estate</h2>
+                    <p>At DreamHome Realty, we believe that finding a home is more than just a transaction. It's about finding a place where memories are made. Our team of dedicated professionals works tirelessly to match you with properties that fit your lifestyle and budget.</p>
+                    <a href="about.html" class="link-btn">Learn More About Us</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call-to-Action Section -->
+        <section class="cta-banner">
+            <div class="container">
+                <h2>Looking to Sell or Rent Your Property?</h2>
+                <p>Contact our experts today for a free valuation and professional consultation.</p>
+                <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html">DreamHome<span>Realty</span></a>
+                    <p>Helping you find the perfect place to call home.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="properties.html">Properties</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <p>123 Real Estate Ave, Suite 100</p>
+                    <p>Cityville, ST 12345</p>
+                    <p>Phone: (555) 123-4567</p>
+                    <p>Email: info@dreamhomerealty.com</p>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <ul class="social-links">
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 DreamHome Realty. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
